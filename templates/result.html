@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Prediction Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; text-align: center; }
+        h1 { color: #4CAF50; }
+        .prediction { font-size: 24px; font-weight: bold; margin: 20px 0; }
+        a { display: inline-block; background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Car Price Prediction Result</h1>
+    <div class="prediction">
+        Predicted Price: ${{ "%.2f"|format(prediction) }}
+    </div>
+    <a href="/">Make Another Prediction</a>
+</body>
+</html>
